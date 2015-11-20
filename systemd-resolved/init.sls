@@ -17,3 +17,5 @@ systemd-resolved:
     - user: root
     - group: root
     - mode: 644
+    - watch_in:
+      - service: systemd-resolved
